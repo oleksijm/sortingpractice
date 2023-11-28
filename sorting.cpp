@@ -3,6 +3,7 @@
 
 //version as at 28.11.2023
 //source - https://www.simplilearn.com/tutorials/cpp-tutorial/sorting-in-cpp
+//quicksort
 
 #define MAX 100
 

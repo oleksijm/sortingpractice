@@ -1,9 +1,19 @@
 #include <iostream>
 #include <cstdlib>
+#include <vector>
 
 //version as at 28.11.2023
 //source - https://www.simplilearn.com/tutorials/cpp-tutorial/sorting-in-cpp
-//quicksort
+//iterators - https://marketsplash.com/tutorials/cpp/cplusplus-iterator/
+
+/*
+Modifying Elements
+You can also modify the elements an iterator points to.
+
+*it = 10; // Changes the third element to 10
+*/
+
+
 
 #define MAX 100
 
@@ -11,8 +21,12 @@ int main()
 {
 	int n;
 	int arr[MAX];
+	std::vector<int> vec;
+
 	void Quick(int arr[], int start, int end);
+	void QuickV(std::vector<int> vc, int start, int end);
 	int divide(int arr[], int start, int end);
+	int divideV(std::vector<int> vc, int start, int end);
 
 
 
@@ -67,6 +81,13 @@ int divide(int arr[], int start, int end) {
 
 	return index;
 
+
+}
+
+int divideV(std::vector<int> vc, int start, int end)
+{
+	int pivot = vc.back();
+	int index = vc.front();
 
 }
 

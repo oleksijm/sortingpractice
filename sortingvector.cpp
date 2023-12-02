@@ -4,6 +4,8 @@
 
 //started on 02.12.2023
 //source - https://stackoverflow.com/questions/47382423/c-quicksort-with-vectors
+//iterators
+//https://marketsplash.com/tutorials/cpp/cplusplus-iterator/
 
 void swap(std::vector<int>& v, int x, int y);
 
